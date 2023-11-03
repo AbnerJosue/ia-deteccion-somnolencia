@@ -11,7 +11,7 @@ from ads import css_string
 
 
 # Define the audio file to use.
-alarm_file_path = os.path.join("audio", "wake_up.wav")
+alarm_file_path = os.path.join("audio", "alarm.wav")
 
 # Streamlit Components
 st.set_page_config(
@@ -28,7 +28,7 @@ st.set_page_config(
 col1, col2 = st.columns(spec=[6, 2], gap="medium")
 
 with col1:
-    st.title("Drowsiness Detection!!!🥱😪😴")
+    st.title("¡Drowsiness Detection!")
     with st.container():
         c1, c2 = st.columns(spec=[1, 1])
         with c1:
